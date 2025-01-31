@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import { useState, useEffect } from "react";
 
@@ -26,23 +26,33 @@ export default function LandingPage() {
   return (
     <section
       id="hero"
-      className="hero bg-cover bg-center h-screen relative mb-5"
+      className="hero bg-cover bg-center h-screen relative flex"
       style={{ backgroundImage: "url('/newPhoto9.jpg')" }}
       dir="rtl" // Ensuring text direction is right-to-left
     >
+      {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="container h-full flex justify-end items-center relative"> {/* Aligning text container to the right */}
-        <div className="text-right text-white mt-5 ml-auto w-full sm:w-2/3 lg:w-2/3 px-5 "> {/* Ensuring text is aligned to the right and full width on small devices */}
-          <h2 className="text-4xl font-extrabold" data-aos="fade-up" data-aos-delay="100">
+
+      {/* Text container */}
+      <div className="container h-full flex items-center relative px-5">
+        <div className="text-right text-white w-full sm:w-2/3 lg:w-2/3">
+          <h2 className="text-xl lg:text-3xl font-extrabold" data-aos="fade-up" data-aos-delay="100">
             مقاول اسفلت الجنوب
           </h2>
+
           {/* Typing paragraph */}
-          <p className="text-xl font-semibold mt-4 rtl-animation" data-aos="fade-up" data-aos-delay="200" style={{ wordSpacing: '6px' }}>
+          <p
+            className="text-sm lg:text-xl font-semibold mt-4 rtl-animation min-h-[48px]"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            style={{ wordSpacing: "6px" }}
+          >
             {typedText}
           </p>
 
+          {/* Call to action button */}
           <button
-            className="relative block text-xl font-bold rounded text-black transition transform hover:scale-105 py-3 mr-25 my-5 px-5 group bg-light"
+            className="relative block text-xl font-bold rounded text-black transition transform hover:scale-105 m-4 px-3 py-2 lg:py-3 lg:my-5 lg:px-5 bg-light"
             onClick={() => window.location.href = "tel:0564262119"}
           >
             تواصل معنا
@@ -50,5 +60,6 @@ export default function LandingPage() {
         </div>
       </div>
     </section>
+
   );
 }

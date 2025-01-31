@@ -19,7 +19,7 @@ export default function Navbar() {
         />
         <div className="justify-between container mx-auto px-4 flex items-center h-16">
           <a
-            className="text-3xl font-bold text-black-600 font-extrabold text-gray-800 hover:text-gray-500 transform hover:scale-110 transition duration-300"
+            className="text-xl lg:text-3xl font-bold text-black font-extrabold text-gray-800 hover:text-gray-500 transform hover:scale-110 transition duration-300"
             href="/"
           >
             مقاول اسفلت الجنوب
@@ -27,7 +27,7 @@ export default function Navbar() {
 
           {/* Hamburger Button for Mobile */}
           <button
-            className="lg:hidden text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400"
+            className="lg:hidden mr-2 text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400"
             type="button"
             aria-expanded={dropdownOpen}
             aria-label="Toggle navigation"
@@ -52,11 +52,11 @@ export default function Navbar() {
           {/* Navbar Links */}
           <div
             id="navbarResponsive"
-            className={`absolute lg:static bg-white lg:flex flex-col lg:flex-row lg:items-center lg:space-y-0 lg:space-x-6 right-0 top-16 w-full lg:w-auto lg:shadow-none ${dropdownOpen ? "block" : "hidden"} md:pb-2 sm:pb-2 lg:pb-0 xl:pb-0`}
+            className={`absolute lg:static bg-white lg:flex flex-col lg:flex-row lg:items-center lg:space-y-0 lg:space-x-6 right-0 top-16 w-full lg:w-auto lg:shadow-none ${dropdownOpen ? "block" : "hidden"}`}
           >
             <a
               href="/"
-              className="relative block text-xl font-bold text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0 group"
+              className="relative block text-xl font-bold text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0 group"
             >
               الرئيسية
               {/* Underline effect */}
@@ -64,7 +64,7 @@ export default function Navbar() {
             </a>
             <a
               href="/about"
-              className="relative block text-xl font-bold text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0 group"
+              className="relative block text-xl font-bold text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0 group"
             >
               عنا
               {/* Underline effect */}
@@ -75,7 +75,7 @@ export default function Navbar() {
             <div className="relative">
               <button
                 onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
-                className="flex items-center font-bold block text-lg text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
+                className="flex items-center font-bold block text-lg text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
               >
                 <AiOutlineDown
                   className={`ml-1 transition-transform ${servicesDropdownOpen ? "rotate-180" : ""}`}
@@ -93,19 +93,19 @@ export default function Navbar() {
                   </a>
                   <a
                     href="/KhmesMkawel"
-                    className="block text-xl font-bold text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
+                    className="block text-xl font-bold text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
                   >
                     مقاول اسفلت خميس مشيط
                   </a>
                   <a
                     href="/AbhaMkawel"
-                    className="block text-xl font-bold text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
+                    className="block text-xl font-bold text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
                   >
                     مقاول اسفلت ابها
                   </a>
                   <a
                     href="/ElbahaMkawel"
-                    className="block text-xl font-bold text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
+                    className="block text-xl font-bold text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
                   >
                     مقاول اسفلت الباحه
                   </a>
@@ -115,14 +115,14 @@ export default function Navbar() {
 
             <a
               href="#footer"
-              className="relative block text-xl font-bold text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0 group"
+              className="relative block text-xl font-bold text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0 group"
             >
               التواصل
               {/* Underline effect */}
               <span className="absolute bottom-0 left-0 block h-[2px] bg-black transform scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100 w-full"></span>
             </a>
             <button
-              className="relative block text-xl font-bold rounded text-white hover:bg-white hover:text-dark transition transform hover:scale-105 py-2 px-4 lg:py-0 group bg-black mr-2"
+              className="relative block text-xl font-bold rounded text-white hover:bg-white hover:text-dark transition transform hover:scale-105 py-2 px-4 lg:mb-0 mb-2 group bg-black mr-2"
               onClick={() => window.open("https://wa.me/+0564262119", "_blank")}
             >
               اطلب الخدمة الان
