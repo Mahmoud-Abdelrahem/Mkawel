@@ -10,7 +10,7 @@ const WhatsApp = () => {
           background:
             "linear-gradient(88deg, rgb(29 145 49) 0%, rgb(73 201 83) 100%)",
         }}
-        href="https://wa.me/+0564262119"
+        href="https://wa.me/0564262119"
         target="_blank"
         rel="noreferrer"
       >
