@@ -36,7 +36,7 @@ export default function LandingPage() {
       {/* Text container */}
       <div className="container h-full flex items-center relative px-5">
         <div className="text-right text-white w-full sm:w-2/3 lg:w-2/3">
-          <h2 className="text-xl lg:text-3xl font-extrabold" data-aos="fade-up" data-aos-delay="100">
+          <h2 className="text-xl lg:text-4xl font-extrabold" data-aos="fade-up" data-aos-delay="100">
             مقاول اسفلت الجنوب
           </h2>
 
