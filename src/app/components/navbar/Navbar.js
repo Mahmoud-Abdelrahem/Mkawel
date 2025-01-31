@@ -87,7 +87,7 @@ export default function Navbar() {
                 <div className="absolute right-0 w-60 bg-white shadow-md rounded-lg mt-2 z-10">
                   <a
                     href="/GnoubMkawel"
-                    className="block text-xl font-bold text-black-800 hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
+                    className="block text-xl font-bold text-black hover:text-gray-800 transition transform hover:scale-105 py-2 px-4 lg:py-0"
                   >
                     مقاول اسفلت منطقة الجنوب
                   </a>

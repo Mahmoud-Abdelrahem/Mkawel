@@ -26,21 +26,21 @@ const blogPosts = [
         title: "تنفيذ العديد من المشروعات في منطقة أبها",
         date: getDynamicDate(0), // Today - 14 days
         image: "/newPhoto6.jpg",
-        link: "#",
+        link: "/AbhaMkawel",
     },
     {
         id: 2,
         title: "الانتهاء من رصف أكبر الطرقات في منطقة خميس مشيط",
         date: getDynamicDate(3), // 3 days before the first post
         image: "/newPhoto5.jpg",
-        link: "#",
+        link: "/KhmesMkawel",
     },
     {
         id: 3,
         title: "أسعارنا تنافسية مع الجميع وبالأخص لمشاريع المنطقة الجنوبية",
         date: getDynamicDate(6), // 6 days before the first post
         image: "/newPhoto4.jpg",
-        link: "#",
+        link: "/GnoubMkawel",
     },
 ];
 

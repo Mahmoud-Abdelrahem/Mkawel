@@ -53,7 +53,7 @@ export default function ThirdSection() {
           </div>
 
           <div
-            className="lg:col-span-6 col-span-12   py-4 p-6 rounded-lg"
+            className="lg:col-span-6 col-span-12 py-4 p-6 rounded-lg"
             dir="rtl"
           >
             <h2 className="text-3xl font-bold mb-4">
@@ -75,7 +75,7 @@ export default function ThirdSection() {
       <hr className="my-10 border-4" />
       <div className="md:p-6 md:mx-5">
         <div className="grid grid-cols-12 sm-425:grid-cols-12 gap-4">
-          <div className="lg:col-span-6 col-span-12  text-white p-6 mx-auto">
+          <div className="lg:col-span-6 col-span-12 text-white p-6 mx-auto">
             <Image
               src="/photo5.jpg"
               alt="Image 1"
