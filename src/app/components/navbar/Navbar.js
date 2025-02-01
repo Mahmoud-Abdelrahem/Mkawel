@@ -123,7 +123,7 @@ export default function Navbar() {
             </a>
             <button
               className="relative block text-xl font-bold rounded text-white hover:bg-white hover:text-dark transition transform hover:scale-105 py-2 px-4 lg:mb-0 mb-2 group bg-black mr-2"
-              onClick={() => window.open("https://wa.me/+0564262119", "_blank")}
+              onClick={() => window.open("https://wa.me/+966541087493", "_blank")}
             >
               اطلب الخدمة الان
             </button>

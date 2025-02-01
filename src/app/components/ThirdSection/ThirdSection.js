@@ -55,7 +55,7 @@ export default function ThirdSection() {
                         className="lg:col-span-6 col-span-12 py-4 p-6 rounded-lg"
                         dir="rtl"
                     >
-                        <h2 className="text-3xl font-bold mb-4">
+                        <h2 className="text-3xl font-bold text-blue-600 mb-4">
                             افضل شركة تنفيذ اعمال اسفلت في المنطقة الجنوبية
                         </h2>
                         <p className="text-xl">
@@ -88,7 +88,7 @@ export default function ThirdSection() {
                         className="lg:col-span-6 col-span-12 py-4 p-6 rounded-lg"
                         dir="rtl"
                     >
-                        <h2 className="text-3xl font-bold mb-4">
+                        <h2 className="text-3xl font-bold mb-4 text-blue-600">
                             خدماتنا في مجال تخطيط الطرق ورصفها
                         </h2>
                         <p className="text-xl">
@@ -137,7 +137,7 @@ export default function ThirdSection() {
                         className="lg:col-span-6 col-span-12 py-4 p-6 rounded-lg"
                         dir="rtl"
                     >
-                        <h2 className="text-4xl font-bold mb-4">
+                        <h2 className="text-4xl font-bold mb-4 text-blue-600">
                             خدمات رصف الطرق والصيانة من شركة مقاول أسفلت الجنوب
                         </h2>
                         <p className="text-xl">

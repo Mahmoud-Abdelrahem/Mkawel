@@ -29,7 +29,7 @@ export default function ServicesCarousel() {
     return (
         <section id="services-2" className="services-2 section bg-black py-16 relative">
             {/* Section Title */}
-            <div className="container mx-auto text-right mb-4 px-6">
+            <div className="container text-center px-6">
                 <h2 className="text-3xl uppercase text-light font-bold mb-4">الخدمات</h2>
                 <p className="text-white text-2xl">نحن نقدم أفضل الخدمات في الاسفلت وتطوير المناطق المختلفة</p>
             </div>

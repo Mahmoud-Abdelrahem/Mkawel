@@ -60,7 +60,7 @@ export default function SecondSection() {
             <div className="grid grid-cols-12 py-5 bg-gray-200">
                 <div className="col-span-12 rounded-lg ">
                     <h1
-                        className={`text-3xl m-4 font-bold cursor-pointer border-2 border-black p-4 shadow-lg rounded-lg font-extrabold text-gray-800 text-center transition-all duration-1000 ease-in-out transform ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"} hover:bg-black hover:text-white`}
+                        className={`text-3xl text-blue-600 m-4 font-bold cursor-pointer border-2 border-black p-4 shadow-lg rounded-lg font-extrabold text-center transition-all duration-1000 ease-in-out transform ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"} hover:bg-black hover:text-white`}
                     >
                         الخدمات المقدمة من مقاول اسفلت الجنوب
                     </h1>
@@ -83,7 +83,7 @@ export default function SecondSection() {
                         </div>
                         {/* Text */}
                         <div className="p-4 text-right lg:col-span-6 col-span-12 ">
-                            <h3 className="text-3xl font-extrabold text-gray-800 mb-2">{item.title}</h3>
+                            <h3 className="text-3xl font-extrabold text-blue-600 mb-2">{item.title}</h3>
                             <p className="text-gray-600 text-xl mb-4 ">{item.description}</p>
                         </div>
                     </div>

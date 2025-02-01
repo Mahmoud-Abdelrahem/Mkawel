@@ -60,9 +60,9 @@ export default function LatestNews() {
         >
             <div className="container mx-auto px-6">
                 {/* Section Title */}
-                <div className="text-center mb-12">
-                    <span className="text-gray-800 text-4xl font-bold tracking-widest">اخر الاخبار </span>
-                    <h2 className="text-4xl font-bold text-gray-800 mt-2">عن مقاول اسفلت الجنوب</h2>
+                <div className="text-center text-blue-600 mb-12">
+                    <span className=" text-4xl font-bold tracking-widest">اخر الاخبار </span>
+                    <h2 className="text-4xl font-bold mt-2">عن مقاول اسفلت الجنوب</h2>
                 </div>
 
                 {/* Blog Posts Grid */}

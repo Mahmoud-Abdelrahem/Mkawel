@@ -28,21 +28,21 @@ export default function Footer() {
                                 </Link>
                                 <div className="flex gap-3">
                                     <MapPin />
-                                    <p>الرياض، المملكة العربية السعودية</p>
+                                    <p>عسير ، المملكة العربية السعودية</p>
                                 </div>
-                                <Link href="tel:+0564262119">
+                                <Link href="tel:+966541087493">
                                     <div className="flex gap-3">
                                         <PhoneCall />
                                         <p className="hover:text-blue-400 duration-200 cursor-pointer">
-                                            +0564262119
+                                            966541087493+
                                         </p>
                                     </div>
                                 </Link>
-                                <Link href="mailto:info@mkawel.com">
+                                <Link href="mailto:asfaltelganob@gmail.com">
                                     <div className="flex gap-3">
                                         <Mail />
                                         <p className="hover:text-blue-400 duration-200 cursor-pointer">
-                                            info@mkawel.com
+                                        asfaltelganob@gmail.com
                                         </p>
                                     </div>
                                 </Link>
@@ -94,7 +94,7 @@ export default function Footer() {
                             <div className="flex flex-1 flex-col gap-4 lg:gap-8 mt-8 items-start lg:w-1/2">
                                 <div className="social-media-icons flex mt-4 gap-6">
                                     {/* Instagram Icon */}
-                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/966541087493" target="_blank" rel="noopener noreferrer">
                                         <FaInstagram
                                             size={40}
                                             color="#C13584"
@@ -103,14 +103,14 @@ export default function Footer() {
                                     </a>
 
                                     {/* Twitter "X" Icon */}
-                                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/966541087493" target="_blank" rel="noopener noreferrer">
                                         <div className="flex items-center justify-center text-xl font-bold  bg-gray-800 w-10 h-10 rounded-full hover:bg-white hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110  hover:shadow-lg">
                                             X
                                         </div>
                                     </a>
 
                                     {/* Facebook Icon */}
-                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/966541087493" target="_blank" rel="noopener noreferrer">
                                         <FaFacebook
                                             size={40}
                                             color="#1877F2"

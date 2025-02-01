@@ -12,11 +12,11 @@ export default function page() {
           <div className="h-4" />
           <div className="font-vt323 text-white p-4">
             <div className="flex items-center">
-              <ChevronRight />
-              <h1 className="font-bold text-white text-2xl">من نحن؟</h1>
+              <ChevronRight className="text-blue-100" />
+              <h1 className="font-bold text-blue-100 text-2xl">من نحن؟</h1>
             </div>
             <div className="my-4">
-              <h1 className="text-2xl text-blue font-bold italic underline underline-offset-4 my-2">
+              <h1 className="text-2xl text-blue-600 font-bold italic underline underline-offset-4 my-2">
                 قصتنا
               </h1>
               <p className="text-2xl">
@@ -24,7 +24,7 @@ export default function page() {
               </p>
             </div>
             <div className="my-4">
-              <h1 className="text-2xl text-blue font-bold italic underline underline-offset-4 my-2">
+              <h1 className="text-2xl text-blue-600 font-bold italic underline underline-offset-4 my-2">
                 رؤيتنا
               </h1>
               <p className="text-2xl">
@@ -32,7 +32,7 @@ export default function page() {
               </p>
             </div>
             <div className="my-4">
-              <h1 className="text-2xl text-blue font-bold italic underline underline-offset-4 my-2">
+              <h1 className="text-2xl text-blue-600 font-bold italic underline underline-offset-4 my-2">
                 مهمتنا
               </h1>
               <p className="text-2xl">
@@ -59,19 +59,19 @@ export default function page() {
           </div>
           <div className="row grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="about__item mb-8">
-              <h4 className="text-3xl font-bold text-gray-900 mb-2">من نحن؟</h4>
+              <h4 className="text-3xl font-bold text-blue-600 mb-2">من نحن؟</h4>
               <p className="text-xl text-gray-700 mb-0">
                 نحن في **مقاول أسفلت الجنوب** نقدم خدمات متكاملة في مجال رصف الطرق والأسفلت بأعلى معايير الجودة. نتميز بخبرة طويلة في تنفيذ المشاريع الكبيرة والصغيرة، مع استخدام أحدث المعدات والتقنيات لضمان المتانة والاستدامة.
               </p>
             </div>
             <div className="about__item mb-8">
-              <h4 className="text-3xl font-bold text-gray-900 mb-2">ماذا نقدم؟</h4>
+              <h4 className="text-3xl font-bold text-blue-600 mb-2">ماذا نقدم؟</h4>
               <p className="text-xl text-gray-700 mb-0">
                 نقدم خدمات رصف الطرق، تعبيد الشوارع، صيانة وإصلاح الأسفلت، ووضع التخطيط المروري لضمان سلامة الطرق. كما نوفر حلولاً متكاملة لصيانة الأسطح وتحسين البنية التحتية.
               </p>
             </div>
             <div className="about__item mb-8">
-              <h4 className="text-3xl font-bold text-gray-900 mb-2">لماذا نحن؟</h4>
+              <h4 className="text-3xl font-bold text-blue-600 mb-2">لماذا نحن؟</h4>
               <p className="text-xl text-gray-700 mb-0">
                 لأننا نستخدم أفضل المواد وأحدث التقنيات، ونحرص على تقديم حلول ذات جودة عالية بأسعار تنافسية. هدفنا هو تحقيق رضا العملاء من خلال تنفيذ المشاريع بكفاءة واحترافية.
               </p>

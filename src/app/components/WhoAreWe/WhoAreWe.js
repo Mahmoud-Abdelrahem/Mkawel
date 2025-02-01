@@ -18,7 +18,7 @@ export default function WhoAreWeSection() {
                 className="flex flex-col md:mx-20 lg:w-1/2 order-2 lg:order-1 text-center lg:text-start"
                 data-aos="fade-right" // AOS animation for text section
             >
-                <h1 className="text-4xl mt-3 md:text-5xl font-bold font-brush">
+                <h1 className="text-4xl mt-3 md:text-5xl text-blue-600 font-bold font-brush">
                     من نحن ؟
                 </h1>
                 <div className="my-10">

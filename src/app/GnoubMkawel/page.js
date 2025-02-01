@@ -112,7 +112,7 @@ export default function Page() {
       {/* مقاول اسفلت الجنوب Section */}
       <section className="bg-gray-100 py-16 px-6 md:px-12 lg:px-24" dir="rtl">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-800 mb-6 transition duration-300 hover:text-blue-600">
+          <h2 className="text-4xl font-bold text-blue-600 mb-6 transition duration-300 hover:text-blue-600">
             مقاول اسفلت الجنوب
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8 hover:text-gray-900 transition duration-300">
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
         <hr className="border-gray-300 my-6" />
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-800 mb-6 transition duration-300 hover:text-blue-600">
+          <h2 className="text-4xl font-bold text-blue-600 mb-6 transition duration-300 hover:text-blue-600">
             شركة سفلتة الطرق الجنوبية
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8 hover:text-gray-900 transition duration-300">
@@ -129,7 +129,7 @@ export default function Page() {
           </p>
         </div>
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-800 mb-6 transition duration-300 hover:text-blue-600">
+          <h2 className="text-4xl font-bold text-blue-600 mb-6 transition duration-300 hover:text-blue-600">
             مقاول أعمال اسفلت الجنوب
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8 hover:text-gray-900 transition duration-300">
@@ -137,7 +137,7 @@ export default function Page() {
           </p>
         </div>
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl font-bold text-gray-800 mb-6 transition duration-300 hover:text-blue-600">
+          <h2 className="text-4xl font-bold text-blue-600 mb-6 transition duration-300 hover:text-blue-600">
             كيفية التواصل مع أفضل مقاول سفلتة طرق
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8 hover:text-gray-900 transition duration-300">
@@ -150,7 +150,7 @@ export default function Page() {
           </ul>
         </div>
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl mt-4 font-bold text-gray-800 mb-6 transition duration-300 hover:text-blue-600">
+          <h2 className="text-4xl mt-4 font-bold text-blue-600 mb-6 transition duration-300 hover:text-blue-600">
             مطلوب مقاول اسفلت الجنوب
           </h2>
           <p className="text-xl text-gray-700 leading-relaxed mb-8 hover:text-gray-900 transition duration-300">

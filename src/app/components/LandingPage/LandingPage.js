@@ -52,8 +52,8 @@ export default function LandingPage() {
 
           {/* Call to action button */}
           <button
-            className="relative block text-xl font-bold rounded text-black transition transform hover:scale-105 m-4 px-3 py-2 lg:py-3 lg:my-5 lg:px-5 bg-light"
-            onClick={() => window.location.href = "tel:0564262119"}
+            className="relative block text-xl font-bold mx-auto rounded text-white bg-blue-500 transition transform hover:scale-105 m-4 px-3 py-2 lg:py-3 lg:my-5 lg:px-5"
+            onClick={() => window.location.href = "tel:966541087493"}
           >
             تواصل معنا
           </button>

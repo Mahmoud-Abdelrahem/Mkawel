@@ -53,7 +53,7 @@ export default function FourthSection() {
                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 p-6 bg-gray-200"
             >
                 <h1
-                    className={`col-span-1 sm:col-span-2 lg:col-span-2 text-4xl font-bold p-4 font-extrabold text-gray-800 mb-4 text-center transition-all duration-1000 ease-in-out transform ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"}`}
+                    className={`col-span-1 sm:col-span-2 lg:col-span-2 text-4xl font-bold p-4 font-extrabold text-blue-600 mb-4 text-center transition-all duration-1000 ease-in-out transform ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"}`}
                 >
                     مميزات مقاول اسفلت الجنوب
                 </h1>
