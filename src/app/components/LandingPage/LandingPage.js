@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 export default function LandingPage() {
   const [typedText, setTypedText] = useState(""); // State to hold the typed text
   const fullText =
-    "مررحبًا بكم في موقع افضل مقاول اسفلت في المنطقة الجنوبية، حيث نقدم مجموعة متنوعة ومميزة من خدمات الرصف و اعمال الاسفلت في جميع انحاء المنطقة الجنوبية ، نحن نقوم بتنفيذ مقاولات الأسفلت والطرقات الكبيرة والصغيرة بجميع مناطق المنطقة الجنوبية ، حيث لدينا العديد من الأجهزة الحديثة والمتطورة التي تجعلنا الأفضل  في مجال مقاولات الاسفلت .";
+    "مررحبًا بكم في موقع أفضل مقاول أسفلت ، حيث نقدم مجموعة متنوعة ومميزة من خدمات الرصف وأعمال الأسفلت في جميع أنحاء المنطقة الجنوبية ، نحن نقوم بتنفيذ مقاولات الأسفلت  في العديد من المدن والمناطق، ومنها: أبها، خميس مشيط، وادي بن هشبل، طريب وتندحة، بيشة، أحد رفيدة، الواديين، سراة عبيدة، الحرجة، ظهران الجنوب، بللحمر، بللسمر، تنومة، النماص، سبت العلايا، الباحة، جيزان، نجران، محايل عسير.";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -36,30 +36,37 @@ export default function LandingPage() {
       {/* Text container */}
       <div className="container h-full flex items-center relative px-5">
         <div className="text-right text-white w-full sm:w-2/3 lg:w-2/3">
-          <h2 className="text-xl lg:text-4xl font-extrabold" data-aos="fade-up" data-aos-delay="100">
+          <h2
+            className="text-2xl lg:text-4xl mt-3 font-extrabold"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             مقاول اسفلت الجنوب
           </h2>
 
           {/* Typing paragraph */}
-          <p
-            className="text-sm lg:text-xl font-semibold mt-4 rtl-animation min-h-[48px]"
-            data-aos="fade-up"
-            data-aos-delay="200"
-            style={{ wordSpacing: "6px" }}
-          >
-            {typedText}
-          </p>
+          <div className="h-[350px] lg:h-[180px] overflow-hidden"> {/* Fixed height container */}
+            <p
+              className="text-sm lg:text-xl font-semibold mt-4 rtl-animation"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              style={{ wordSpacing: "6px" }}
+            >
+              {typedText}
+            </p>
+          </div>
 
           {/* Call to action button */}
-          <button
-            className="relative block text-xl font-bold mx-auto rounded text-white bg-blue-500 transition transform hover:scale-105 m-4 px-3 py-2 lg:py-3 lg:my-5 lg:px-5"
-            onClick={() => window.location.href = "tel:966541087493"}
-          >
-            تواصل معنا
-          </button>
+          <div className="flex justify-center"> {/* Wrapper to ensure button position is fixed */}
+            <button
+              className="text-xl font-bold rounded text-white bg-blue-500 transition transform hover:scale-105 px-3 py-2 lg:py-3 lg:px-5"
+              onClick={() => (window.location.href = "tel:966541087493")}
+            >
+              تواصل معنا
+            </button>
+          </div>
         </div>
       </div>
     </section>
-
   );
 }
