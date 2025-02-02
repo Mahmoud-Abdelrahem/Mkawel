@@ -62,7 +62,7 @@ export default function SecondSection() {
                     <h1
                         className={`text-3xl text-blue-600 m-4 font-bold cursor-pointer border-2 border-black p-4 shadow-lg rounded-lg font-extrabold text-center transition-all duration-1000 ease-in-out transform ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"} hover:bg-black hover:text-white`}
                     >
-                        الخدمات المقدمة من مقاول اسفلت الجنوب
+                        الخدمات المقدمة من شركتنا
                     </h1>
                 </div>
 
