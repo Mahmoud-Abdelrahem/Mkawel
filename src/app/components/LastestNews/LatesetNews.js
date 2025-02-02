@@ -62,7 +62,7 @@ export default function LatestNews() {
                 {/* Section Title */}
                 <div className="text-center text-blue-600 mb-12">
                     <span className=" text-4xl font-bold tracking-widest">اخر الاخبار </span>
-                    <h2 className="text-4xl font-bold mt-2">عن مقاول اسفلت الجنوب</h2>
+                    <h2 className="text-4xl font-bold mt-2">عن شركتنا  </h2>
                 </div>
 
                 {/* Blog Posts Grid */}
